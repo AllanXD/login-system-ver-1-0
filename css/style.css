@@ -1,0 +1,263 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body, html {
+
+    height: 100%;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: #000099;
+
+}
+
+.bg { 
+
+    /* The image used */
+    background-image: url("../img/1436155-scenic.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* LOGIN */
+
+div.login-container {
+
+	position: relative;
+	top: 30%;
+	margin: auto;
+	text-align: center;
+	max-width: 400px; 
+	background-color: rgba(255,255,255,0.5);
+	
+
+}
+
+div.login-container h1 {
+
+	padding: 10px 0;
+
+}
+
+div.login-container input[type="email"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+div.login-container input[type="password"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 10px;
+
+}
+
+div.login-container input[type="submit"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	background-color: rgba(0, 187, 255, 0.6);
+	margin-bottom: 10px;
+
+}
+
+div.login-container input[type="submit"]:hover {
+
+	background-color: rgb(0, 187, 255);
+	cursor: pointer;
+
+}
+
+p.login-alert {
+
+	padding: 5px 0;
+	background-color: rgba(255, 0, 0, 0.6);
+	color: #FFF;
+
+}
+
+/* REGISTER */
+
+div.register-container {
+
+	position: relative;
+	top: 15%;
+	margin: auto;
+	text-align: center;
+	max-width: 400px; 
+	background-color: rgba(255,255,255,0.5);
+	
+
+}
+
+div.register-container h1 {
+
+	padding: 10px 0;
+
+}
+
+div.register-container input[type="text"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+div.register-container input[type="email"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+div.register-container input[type="password"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+div.register-container input[name="verypass"] {
+
+	margin-bottom: 10px;
+
+}
+
+div.register-container input[type="date"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	width: 325px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+div.register-container input[type="submit"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	background-color: rgba(0, 187, 255, 0.6);
+	margin-bottom: 10px;
+
+}
+
+div.register-container input[type="submit"]:hover {
+
+	background-color: rgb(0, 187, 255);
+	cursor: pointer;
+
+}
+
+
+p.register-alert {
+
+	padding: 5px 0;
+	background-color: rgba(255, 0, 0, 0.6);
+	color: #FFF;
+
+}
+
+p.register-alert a {
+
+	color: #CCC;
+
+}
+
+p.register-success {
+
+	padding: 5px 0;
+	background-color: rgba(0, 255, 0, 0.6);
+	color: #FFF;
+
+}
+
+p.register-success a {
+
+	color: #CCC;
+
+}
+
+/* INDEX */
+
+div.index-container {
+
+	position: relative;
+	top: 38%;
+	margin: auto;
+	text-align: center;
+	max-width: 900px;
+	min-width: 300px;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+div.index-container h1 {
+
+	padding: 10px 0;
+
+}
+
+div.index-container input[type="submit"] {
+
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	background-color: rgba(0, 187, 255, 0.6);
+	margin-bottom: 10px;
+
+}
+
+div.index-container input[type="submit"]:hover {
+
+	background-color: rgb(0, 187, 255);
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
